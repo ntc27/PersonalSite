@@ -1,0 +1,130 @@
+#nav {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	display: inline;
+	background-color: white;
+	opacity: 0.6;
+	padding: 5px;
+	text-align: right;
+	border-bottom: 2px solid #cf871d;
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	z-index: 999;
+}
+#nav a{
+	padding: 10px;
+	color: black;
+	text-decoration: none;
+	-webkit-transition: .35s ease-in-out;
+	transition: .35s ease-in-out;
+}
+#nav a:hover {
+	color: #cf871d;
+}
+body {
+	font-family: 'Poiret One', cursive;
+}
+body > div {
+	position:fixed;
+	background-image: url("image/background.jpg"); /*background image picture of lake in cornell taken by me*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	top:0px;
+	left:0px;
+	bottom:0px;
+	right:0px;
+}
+#adminbtn {
+	font-family: 'Poiret One', cursive;
+	color: gold;
+	text-decoration: none;
+	position: fixed;
+	left: 10px;
+	bottom: 10px;
+}
+#logoff a{
+	font-family: 'Poiret One', cursive;
+	color: gold;
+	text-decoration: none;
+	position: fixed;
+	left: 10px;
+	bottom: 10px;
+}
+#contact {
+	position: fixed;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	display: none;
+}
+#Login {
+	position: fixed;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	display: none;
+}
+.bg {
+	position: fixed;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	opacity: 0.5;
+	background-color: black;
+	z-index: -1;
+}
+.container {
+	z-index: 900;
+	margin: 0 auto;
+	margin-top: 18%;
+	width: 300px;
+	background-color: white;
+	border-radius: 15px;
+	padding: 20px;
+}
+.container input {
+	border-bottom: 1px solid black;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	width: 290px;
+	-webkit-transition: .35s ease-in-out;
+	transition: .35s ease-in-out;
+}
+.container input:focus {
+	border-bottom: 1px solid #cf871d;
+	color: #cf871d;
+}
+.submit input {
+	border: 1px solid #cf871d;
+	background-color: white;
+	color: #cf871d;
+}
+.submit input:hover {
+	border: 1px solid white;
+	background-color: #cf871d;
+	color: white;
+}
+.container div {
+	margin: 5px;
+}
+.container > div {
+	font-size: 18pt;
+	color: #cf871d;
+}
+textarea {
+	border: 1px solid black;
+	color: black;
+	-webkit-transition: .35s ease-in-out;
+	transition: .35s ease-in-out;
+}
+textarea:focus {
+	border: 1px solid #cf871d;
+	color: #cf871d;
+}
